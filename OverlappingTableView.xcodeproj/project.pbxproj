@@ -13,10 +13,12 @@
 		D50831AC248914E8002F4E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50831AA248914E8002F4E1F /* Main.storyboard */; };
 		D50831AE248914EB002F4E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50831AD248914EB002F4E1F /* Assets.xcassets */; };
 		D50831B1248914EB002F4E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50831AF248914EB002F4E1F /* LaunchScreen.storyboard */; };
+		D50831B92489199C002F4E1F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50831B82489199C002F4E1F /* Cell.swift */; };
+		D50831BB24891BD7002F4E1F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50831BA24891BD7002F4E1F /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D50831A1248914E8002F4E1F /* OverlapingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlapingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50831A1248914E8002F4E1F /* OverlappingTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlappingTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50831A4248914E8002F4E1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D50831A6248914E8002F4E1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D50831A8248914E8002F4E1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		D50831AD248914EB002F4E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50831B0248914EB002F4E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D50831B2248914EB002F4E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50831B82489199C002F4E1F /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		D50831BA24891BD7002F4E1F /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		D50831A2248914E8002F4E1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D50831A1248914E8002F4E1F /* OverlapingTableView.app */,
+				D50831A1248914E8002F4E1F /* OverlappingTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				D50831A4248914E8002F4E1F /* AppDelegate.swift */,
 				D50831A6248914E8002F4E1F /* SceneDelegate.swift */,
 				D50831A8248914E8002F4E1F /* ViewController.swift */,
+				D50831B82489199C002F4E1F /* Cell.swift */,
+				D50831BA24891BD7002F4E1F /* TableView.swift */,
 				D50831AA248914E8002F4E1F /* Main.storyboard */,
 				D50831AD248914EB002F4E1F /* Assets.xcassets */,
 				D50831AF248914EB002F4E1F /* LaunchScreen.storyboard */,
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D50831A0248914E8002F4E1F /* OverlapingTableView */ = {
+		D50831A0248914E8002F4E1F /* OverlappingTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D50831B5248914EB002F4E1F /* Build configuration list for PBXNativeTarget "OverlapingTableView" */;
+			buildConfigurationList = D50831B5248914EB002F4E1F /* Build configuration list for PBXNativeTarget "OverlappingTableView" */;
 			buildPhases = (
 				D508319D248914E8002F4E1F /* Sources */,
 				D508319E248914E8002F4E1F /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = OverlapingTableView;
+			name = OverlappingTableView;
 			productName = OverlapingTableView;
-			productReference = D50831A1248914E8002F4E1F /* OverlapingTableView.app */;
+			productReference = D50831A1248914E8002F4E1F /* OverlappingTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D508319C248914E8002F4E1F /* Build configuration list for PBXProject "OverlapingTableView" */;
+			buildConfigurationList = D508319C248914E8002F4E1F /* Build configuration list for PBXProject "OverlappingTableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D50831A0248914E8002F4E1F /* OverlapingTableView */,
+				D50831A0248914E8002F4E1F /* OverlappingTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50831A9248914E8002F4E1F /* ViewController.swift in Sources */,
+				D50831BB24891BD7002F4E1F /* TableView.swift in Sources */,
+				D50831B92489199C002F4E1F /* Cell.swift in Sources */,
 				D50831A5248914E8002F4E1F /* AppDelegate.swift in Sources */,
 				D50831A7248914E8002F4E1F /* SceneDelegate.swift in Sources */,
 			);
@@ -319,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D508319C248914E8002F4E1F /* Build configuration list for PBXProject "OverlapingTableView" */ = {
+		D508319C248914E8002F4E1F /* Build configuration list for PBXProject "OverlappingTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D50831B3248914EB002F4E1F /* Debug */,
@@ -328,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D50831B5248914EB002F4E1F /* Build configuration list for PBXNativeTarget "OverlapingTableView" */ = {
+		D50831B5248914EB002F4E1F /* Build configuration list for PBXNativeTarget "OverlappingTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D50831B6248914EB002F4E1F /* Debug */,
