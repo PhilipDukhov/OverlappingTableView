@@ -1,0 +1,1 @@
+This is a sample project demonstration of iOS overlapping TableView cells for [stackoverflow question](https://stackoverflow.com/questions/62139331/overlapping-cells-at-bottom-left-corner/62194504#62194504)
